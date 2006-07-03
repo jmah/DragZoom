@@ -44,6 +44,7 @@
 		287E4F160A59778B0060AA3B /* Metadata Importer Shared.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Metadata Importer Shared.xcconfig"; sourceTree = "<group>"; };
 		287E4F170A59778B0060AA3B /* Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
 		287E4F180A5977E20060AA3B /* SIMBL Plug-in Shared.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "SIMBL Plug-in Shared.xcconfig"; sourceTree = "<group>"; };
+		28836D160A5993BD004A127A /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		32DBCF630370AF2F00C91783 /* DragZoom Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DragZoom Prefix.pch"; sourceTree = "<group>"; };
 		8D5B49B6048680CD000E48DA /* DragZoom.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DragZoom.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D5B49B7048680CD000E48DA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -65,6 +66,7 @@
 		089C166AFE841209C02AAC07 /* DragZoom */ = {
 			isa = PBXGroup;
 			children = (
+				28836D160A5993BD004A127A /* LICENSE.txt */,
 				287E4F0B0A59778B0060AA3B /* Common Build Configurations */,
 				287E4ECC0A5976140060AA3B /* Preview Headers */,
 				08FB77AFFE84173DC02AAC07 /* Classes */,
