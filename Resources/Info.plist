@@ -28,7 +28,7 @@
 			<key>BundleIdentifier</key>
 			<string>com.apple.Preview</string>
 			<key>MaxBundleVersion</key>
-			<string>398</string>
+			<string>409</string>
 			<key>MinBundleVersion</key>
 			<string>398</string>
 	</dict>
