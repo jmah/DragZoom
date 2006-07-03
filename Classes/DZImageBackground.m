@@ -40,11 +40,11 @@
 				                            (currLocation.y - firstLocation.y));
 			}
 			
-			float zoomIncrement = (([currEvent modifierFlags] & NSAlternateKeyMask) ? 0.01 : 0.05); // Slow it down for Ryan
+			float zoomFactor = (([currEvent modifierFlags] & NSAlternateKeyMask) ? 0.01 : 0.05); // Slow it down while holding Option
 			
 			// Only look at width of scaling factor (width and height are usually the same)
 			float currScale = [self scalingFactor].width * 100.f;
-			float newScale = MAX(0.f, currScale + (deltaLocation.y * zoomIncrement));
+			float newScale = MAX(0.f, currScale * (1.f + ((deltaLocation.y / 100.f) * zoomFactor)));
 			NSPoint newCenter = NSMakePoint((origCenter.x * (newScale / 100.f)),
 			                                (origCenter.y * (newScale / 100.f)));
 			
