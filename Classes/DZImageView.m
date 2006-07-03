@@ -12,6 +12,7 @@
 
 @implementation DZImageView
 
+
 - (void)mouseDown:(NSEvent *)theEvent // NSResponder
 {
 #warning Direct ivar access
@@ -25,5 +26,6 @@
 	else
 		[super mouseDown:theEvent];
 }
+
 
 @end

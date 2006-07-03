@@ -1,0 +1,9 @@
+//
+//  Metadata Importer Debug.xcconfig
+//  Default settings for the Debug configuration for metadata importer targets
+//
+//  Created by Jonathon Mah on 2005-12-16.
+
+#include "Metadata Importer Shared"
+
+

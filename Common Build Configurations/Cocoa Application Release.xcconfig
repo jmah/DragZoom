@@ -1,0 +1,10 @@
+//
+//  Cocoa Application Release.xcconfig
+//  Default settings for the Release configuration for Cocoa application targets
+//
+//  Created by Jonathon Mah on 2005-11-30.
+
+#include "Cocoa Application Shared"
+
+
+ZERO_LINK = NO

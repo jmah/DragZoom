@@ -1,0 +1,14 @@
+//
+//  Cocoa Test Suite.xcconfig
+//  Default settings for Cocoa test suite targets
+//
+//  Created by Jonathon Mah on 2005-12-16.
+
+#include "10_4 Shared"
+
+
+WRAPPER_EXTENSION = octest
+INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles"
+PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = NO
+GCC_PRECOMPILE_PREFIX_HEADER = YES
+LIBRARY_STYLE = BUNDLE

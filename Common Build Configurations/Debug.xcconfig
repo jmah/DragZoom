@@ -1,0 +1,15 @@
+//
+//  Debug.xcconfig
+//  Default settings for the project-wide Debug build configuration
+//
+//  Created by Jonathon Mah on 2005-11-30.
+
+#include "10_4 Shared"
+
+
+COPY_PHASE_STRIP = NO
+STRIP_INSTALLED_PRODUCT = NO
+GCC_DEBUGGING_SYMBOLS = full
+GCC_OPTIMIZATION_LEVEL = 0
+GCC_GENERATE_DEBUGGING_SYMBOLS = YES
+GENERATE_PROFILING_CODE = YES

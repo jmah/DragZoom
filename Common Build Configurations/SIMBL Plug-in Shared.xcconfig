@@ -1,0 +1,13 @@
+//
+//  Cocoa Application Shared.xcconfig
+//  Shared build configuration settings for Cocoa application targets
+//
+//  Created by Jonathon Mah on 2005-11-30.
+
+
+WRAPPER_EXTENSION = bundle
+INSTALL_PATH = "$(HOME)/Library/Application Support/SIMBL/Plugins"
+PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = NO
+GCC_PRECOMPILE_PREFIX_HEADER = YES
+OTHER_LDFLAGS = -undefined dynamic_lookup
+ZERO_LINK = NO

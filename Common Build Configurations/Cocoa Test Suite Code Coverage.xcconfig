@@ -1,0 +1,14 @@
+//
+//  Cocoa Test Suite Code Coverage.xcconfig
+//  Default settings for the Code Coverage configuration for Cocoa test suite targets
+//  This build configuration is designed for infrequent code coverage testing.
+//  It avoids things like precompiling headers.
+//
+//  Created by Jonathon Mah on 2006-01-11.
+
+#include "Cocoa Test Suite Unit Tests"
+
+
+GCC_GENERATE_TEST_COVERAGE_FILES = YES
+GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES
+OTHER_LDFLAGS = -lgcov

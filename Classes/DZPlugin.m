@@ -17,6 +17,7 @@
 
 @implementation DZPlugin
 
+
 + (void)install // SIMBL
 {
 	[DZImageBackground poseAsClass:[PVImageBackground class]];

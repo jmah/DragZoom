@@ -1,0 +1,12 @@
+//
+//  Release.xcconfig
+//  Default settings for the project-wide Release build configuration
+//
+//  Created by Jonathon Mah on 2005-11-30.
+
+#include "10_4 Shared"
+
+
+ARCHS = ppc i386
+GCC_GENERATE_DEBUGGING_SYMBOLS = NO
+GCC_WARN_UNINITIALIZED_AUTOS = YES

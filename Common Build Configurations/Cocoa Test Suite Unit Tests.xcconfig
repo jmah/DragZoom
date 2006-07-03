@@ -1,0 +1,13 @@
+//
+//  Cocoa Test Suite Unit Tests.xcconfig
+//  Default settings for the Unit Tests configuration for Cocoa test suite targets
+//  This build configuration is designed for use by tools such as darcs that
+//  run tests from a fresh directory. It avoids things like precompiling
+//  headers.
+//
+//  Created by Jonathon Mah on 2005-12-16.
+
+#include "Cocoa Test Suite"
+
+
+GCC_PRECOMPILE_PREFIX_HEADER = NO

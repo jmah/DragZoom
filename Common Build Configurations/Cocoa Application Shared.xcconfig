@@ -1,0 +1,12 @@
+//
+//  Cocoa Application Shared.xcconfig
+//  Shared build configuration settings for Cocoa application targets
+//
+//  Created by Jonathon Mah on 2005-11-30.
+
+
+WRAPPER_EXTENSION = app
+INSTALL_PATH = "$(HOME)/Applications"
+PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = NO
+GCC_PRECOMPILE_PREFIX_HEADER = YES
+GCC_DYNAMIC_NO_PIC = YES

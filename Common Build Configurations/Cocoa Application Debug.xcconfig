@@ -1,0 +1,12 @@
+//
+//  Cocoa Application Debug.xcconfig
+//  Default settings for the Debug configuration for Cocoa application targets
+//
+//  Created by Jonathon Mah on 2005-11-30.
+
+#include "Cocoa Application Shared"
+
+
+ZERO_LINK = YES
+COPY_PHASE_STRIP = NO
+GCC_ENABLE_FIX_AND_CONTINUE = YES

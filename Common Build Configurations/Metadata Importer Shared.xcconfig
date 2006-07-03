@@ -1,0 +1,12 @@
+//
+//  Metadata Importer Shared.xcconfig
+//  Shared build configuration settings for metadata importer targets
+//
+//  Created by Jonathon Mah on 2005-12-16.
+
+
+WRAPPER_EXTENSION = mdimporter
+INSTALL_PATH = "@executable_path/../Contents/Library/Spotlight"
+PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = NO
+GCC_PRECOMPILE_PREFIX_HEADER = YES
+LIBRARY_STYLE = BUNDLE

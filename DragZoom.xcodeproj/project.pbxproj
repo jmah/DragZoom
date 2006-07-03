@@ -11,42 +11,40 @@
 		28467F9309EE477600BA4292 /* DZPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 28467F9209EE477600BA4292 /* DZPlugin.m */; };
 		2846801709EE4BBF00BA4292 /* DZImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2846801609EE4BBF00BA4292 /* DZImageView.m */; };
 		2846814E09EE5EF400BA4292 /* DZPDFView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2846814D09EE5EF400BA4292 /* DZPDFView.m */; };
-		8D5B49B0048680CD000E48DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
+		287E4ED90A5976500060AA3B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 287E4ED70A5976500060AA3B /* InfoPlist.strings */; };
 		8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXBuildStyle section */
-		014CEA420018CDE011CA2923 /* Debug */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-			};
-			name = Debug;
-		};
-		014CEA430018CDE011CA2923 /* Release */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-			};
-			name = Release;
-		};
-/* End PBXBuildStyle section */
-
 /* Begin PBXFileReference section */
 		089C1672FE841209C02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
-		089C167EFE841241C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		089C167FFE841241C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
-		28467F8B09EE46F000BA4292 /* PVImageBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVImageBackground.h; sourceTree = "<group>"; };
 		28467F8E09EE475D00BA4292 /* DZImageBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZImageBackground.h; sourceTree = "<group>"; };
 		28467F8F09EE475D00BA4292 /* DZImageBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZImageBackground.m; sourceTree = "<group>"; };
 		28467F9109EE477600BA4292 /* DZPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZPlugin.h; sourceTree = "<group>"; };
 		28467F9209EE477600BA4292 /* DZPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZPlugin.m; sourceTree = "<group>"; };
-		2846800E09EE4B7000BA4292 /* PVImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVImageView.h; sourceTree = "<group>"; };
 		2846801509EE4BBF00BA4292 /* DZImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZImageView.h; sourceTree = "<group>"; };
 		2846801609EE4BBF00BA4292 /* DZImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZImageView.m; sourceTree = "<group>"; };
-		2846814509EE5E9500BA4292 /* PVPDFView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVPDFView.h; sourceTree = "<group>"; };
 		2846814C09EE5EF400BA4292 /* DZPDFView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZPDFView.h; sourceTree = "<group>"; };
 		2846814D09EE5EF400BA4292 /* DZPDFView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZPDFView.m; sourceTree = "<group>"; };
-		32DBCF630370AF2F00C91783 /* DragZoom_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DragZoom_Prefix.pch; sourceTree = "<group>"; };
+		287E4ECD0A5976140060AA3B /* PVImageBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVImageBackground.h; sourceTree = "<group>"; };
+		287E4ECE0A5976140060AA3B /* PVImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVImageView.h; sourceTree = "<group>"; };
+		287E4ECF0A5976140060AA3B /* PVPDFView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVPDFView.h; sourceTree = "<group>"; };
+		287E4ED80A5976500060AA3B /* en */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		287E4F0C0A59778B0060AA3B /* 10_4 Shared.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "10_4 Shared.xcconfig"; sourceTree = "<group>"; };
+		287E4F0D0A59778B0060AA3B /* Cocoa Application Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Cocoa Application Debug.xcconfig"; sourceTree = "<group>"; };
+		287E4F0E0A59778B0060AA3B /* Cocoa Application Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Cocoa Application Release.xcconfig"; sourceTree = "<group>"; };
+		287E4F0F0A59778B0060AA3B /* Cocoa Application Shared.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Cocoa Application Shared.xcconfig"; sourceTree = "<group>"; };
+		287E4F100A59778B0060AA3B /* Cocoa Test Suite Code Coverage.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Cocoa Test Suite Code Coverage.xcconfig"; sourceTree = "<group>"; };
+		287E4F110A59778B0060AA3B /* Cocoa Test Suite Unit Tests.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Cocoa Test Suite Unit Tests.xcconfig"; sourceTree = "<group>"; };
+		287E4F120A59778B0060AA3B /* Cocoa Test Suite.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Cocoa Test Suite.xcconfig"; sourceTree = "<group>"; };
+		287E4F130A59778B0060AA3B /* Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
+		287E4F140A59778B0060AA3B /* Metadata Importer Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Metadata Importer Debug.xcconfig"; sourceTree = "<group>"; };
+		287E4F150A59778B0060AA3B /* Metadata Importer Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Metadata Importer Release.xcconfig"; sourceTree = "<group>"; };
+		287E4F160A59778B0060AA3B /* Metadata Importer Shared.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Metadata Importer Shared.xcconfig"; sourceTree = "<group>"; };
+		287E4F170A59778B0060AA3B /* Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+		287E4F180A5977E20060AA3B /* SIMBL Plug-in Shared.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "SIMBL Plug-in Shared.xcconfig"; sourceTree = "<group>"; };
+		32DBCF630370AF2F00C91783 /* DragZoom Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DragZoom Prefix.pch"; sourceTree = "<group>"; };
 		8D5B49B6048680CD000E48DA /* DragZoom.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DragZoom.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D5B49B7048680CD000E48DA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Info.plist; sourceTree = "<group>"; };
 		D2F7E65807B2D6F200F64583 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
@@ -67,6 +65,8 @@
 		089C166AFE841209C02AAC07 /* DragZoom */ = {
 			isa = PBXGroup;
 			children = (
+				287E4F0B0A59778B0060AA3B /* Common Build Configurations */,
+				287E4ECC0A5976140060AA3B /* Preview Headers */,
 				08FB77AFFE84173DC02AAC07 /* Classes */,
 				32C88E010371C26100C91783 /* Other Sources */,
 				089C167CFE841241C02AAC07 /* Resources */,
@@ -89,27 +89,24 @@
 			isa = PBXGroup;
 			children = (
 				8D5B49B7048680CD000E48DA /* Info.plist */,
-				089C167DFE841241C02AAC07 /* InfoPlist.strings */,
+				287E4ED70A5976500060AA3B /* InfoPlist.strings */,
 			);
-			name = Resources;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		08FB77AFFE84173DC02AAC07 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				2846800E09EE4B7000BA4292 /* PVImageView.h */,
-				2846801509EE4BBF00BA4292 /* DZImageView.h */,
-				2846801609EE4BBF00BA4292 /* DZImageView.m */,
-				28467F8B09EE46F000BA4292 /* PVImageBackground.h */,
-				28467F8E09EE475D00BA4292 /* DZImageBackground.h */,
-				28467F8F09EE475D00BA4292 /* DZImageBackground.m */,
-				2846814509EE5E9500BA4292 /* PVPDFView.h */,
-				2846814C09EE5EF400BA4292 /* DZPDFView.h */,
-				2846814D09EE5EF400BA4292 /* DZPDFView.m */,
 				28467F9109EE477600BA4292 /* DZPlugin.h */,
 				28467F9209EE477600BA4292 /* DZPlugin.m */,
+				2846801509EE4BBF00BA4292 /* DZImageView.h */,
+				2846801609EE4BBF00BA4292 /* DZImageView.m */,
+				28467F8E09EE475D00BA4292 /* DZImageBackground.h */,
+				28467F8F09EE475D00BA4292 /* DZImageBackground.m */,
+				2846814C09EE5EF400BA4292 /* DZPDFView.h */,
+				2846814D09EE5EF400BA4292 /* DZPDFView.m */,
 			);
-			name = Classes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */ = {
@@ -138,12 +135,42 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		287E4ECC0A5976140060AA3B /* Preview Headers */ = {
+			isa = PBXGroup;
+			children = (
+				287E4ECD0A5976140060AA3B /* PVImageBackground.h */,
+				287E4ECE0A5976140060AA3B /* PVImageView.h */,
+				287E4ECF0A5976140060AA3B /* PVPDFView.h */,
+			);
+			path = "Preview Headers";
+			sourceTree = "<group>";
+		};
+		287E4F0B0A59778B0060AA3B /* Common Build Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				287E4F0C0A59778B0060AA3B /* 10_4 Shared.xcconfig */,
+				287E4F130A59778B0060AA3B /* Debug.xcconfig */,
+				287E4F170A59778B0060AA3B /* Release.xcconfig */,
+				287E4F0F0A59778B0060AA3B /* Cocoa Application Shared.xcconfig */,
+				287E4F0D0A59778B0060AA3B /* Cocoa Application Debug.xcconfig */,
+				287E4F0E0A59778B0060AA3B /* Cocoa Application Release.xcconfig */,
+				287E4F120A59778B0060AA3B /* Cocoa Test Suite.xcconfig */,
+				287E4F110A59778B0060AA3B /* Cocoa Test Suite Unit Tests.xcconfig */,
+				287E4F100A59778B0060AA3B /* Cocoa Test Suite Code Coverage.xcconfig */,
+				287E4F160A59778B0060AA3B /* Metadata Importer Shared.xcconfig */,
+				287E4F140A59778B0060AA3B /* Metadata Importer Debug.xcconfig */,
+				287E4F150A59778B0060AA3B /* Metadata Importer Release.xcconfig */,
+				287E4F180A5977E20060AA3B /* SIMBL Plug-in Shared.xcconfig */,
+			);
+			path = "Common Build Configurations";
+			sourceTree = "<group>";
+		};
 		32C88E010371C26100C91783 /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
-				32DBCF630370AF2F00C91783 /* DragZoom_Prefix.pch */,
+				32DBCF630370AF2F00C91783 /* DragZoom Prefix.pch */,
 			);
-			name = "Other Sources";
+			path = "Other Sources";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,8 +186,6 @@
 			);
 			buildRules = (
 			);
-			buildSettings = {
-			};
 			dependencies = (
 			);
 			name = DragZoom;
@@ -175,13 +200,14 @@
 		089C1669FE841209C02AAC07 /* Project object */ = {
 			isa = PBXProject;
 			buildConfigurationList = 1DEB913E08733D840010E9CD /* Build configuration list for PBXProject "DragZoom" */;
-			buildSettings = {
-			};
-			buildStyles = (
-				014CEA420018CDE011CA2923 /* Debug */,
-				014CEA430018CDE011CA2923 /* Release */,
-			);
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+			);
 			mainGroup = 089C166AFE841209C02AAC07 /* DragZoom */;
 			projectDirPath = "";
 			targets = (
@@ -195,7 +221,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D5B49B0048680CD000E48DA /* InfoPlist.strings in Resources */,
+				287E4ED90A5976500060AA3B /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,10 +242,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		089C167DFE841241C02AAC07 /* InfoPlist.strings */ = {
+		287E4ED70A5976500060AA3B /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				089C167EFE841241C02AAC07 /* English */,
+				287E4ED80A5976500060AA3B /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -229,64 +255,36 @@
 /* Begin XCBuildConfiguration section */
 		1DEB913B08733D840010E9CD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 287E4F180A5977E20060AA3B /* SIMBL Plug-in Shared.xcconfig */;
 			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_FIX_AND_CONTINUE = YES;
-				GCC_MODEL_TUNING = G5;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = DragZoom_Prefix.pch;
-				INFOPLIST_FILE = Info.plist;
-				INSTALL_PATH = "$(HOME)/Library/Bundles";
-				OTHER_LDFLAGS = (
-					"-undefined",
-					dynamic_lookup,
-				);
+				GCC_PREFIX_HEADER = "Other Sources/DragZoom Prefix.pch";
+				INFOPLIST_FILE = Resources/Info.plist;
 				PRODUCT_NAME = DragZoom;
-				WRAPPER_EXTENSION = bundle;
-				ZERO_LINK = YES;
 			};
 			name = Debug;
 		};
 		1DEB913C08733D840010E9CD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 287E4F180A5977E20060AA3B /* SIMBL Plug-in Shared.xcconfig */;
 			buildSettings = {
-				ARCHS = (
-					ppc,
-					i386,
-				);
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_MODEL_TUNING = G5;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = DragZoom_Prefix.pch;
-				INFOPLIST_FILE = Info.plist;
-				INSTALL_PATH = "$(HOME)/Library/Bundles";
-				OTHER_LDFLAGS = (
-					"-undefined",
-					dynamic_lookup,
-				);
+				GCC_PREFIX_HEADER = "Other Sources/DragZoom Prefix.pch";
+				INFOPLIST_FILE = Resources/Info.plist;
 				PRODUCT_NAME = DragZoom;
-				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
 		1DEB913F08733D840010E9CD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 287E4F130A59778B0060AA3B /* Debug.xcconfig */;
 			buildSettings = {
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				PREBINDING = NO;
 				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
 			};
 			name = Debug;
 		};
 		1DEB914008733D840010E9CD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 287E4F170A59778B0060AA3B /* Release.xcconfig */;
 			buildSettings = {
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				PREBINDING = NO;
 				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
 			};
 			name = Release;
